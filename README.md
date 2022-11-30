@@ -1,1 +1,1 @@
-Shell basics
+Navigating Shell
