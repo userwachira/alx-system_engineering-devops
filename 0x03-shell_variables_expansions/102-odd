@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -n "/^$str/p" $file
+awk "BEGIN {IGNORECASE = 1} /^$str/{print}" $file
