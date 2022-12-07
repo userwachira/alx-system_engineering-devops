@@ -1,2 +1,2 @@
 #!/bin/bash
-awk "BEGIN {IGNORECASE = 1} /^$str/{print}" $file
+paste -d" " - - | cut -d " " -f 1
